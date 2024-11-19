@@ -55,13 +55,6 @@ const MicrophoneContextProvider = ({ children }) => {
     setMicrophoneState(2);
   }, [processor, microphoneAudioContext, microphone]);
 
-  // const stopMicrophone = useCallback(() => {
-  //   if (microphone?.state === "recording") {
-  //     microphone?.pause();
-  //     setMicrophoneState(3); // paused test
-  //   }
-  // }, [microphone]);
-
   return (
     <MicrophoneContext.Provider
       value={{

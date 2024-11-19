@@ -38,6 +38,7 @@ export type LatencyMessage = {
   tts_latency: number;
   ttt_latency: number;
 };
+
 export type ConversationMessage = UserMessage | AssistantMessage;
 
 export type UserMessage = { user: string };
