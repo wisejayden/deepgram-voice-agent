@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useLayoutEffect, type FC } from "react";
 import {
   isConversationMessage,

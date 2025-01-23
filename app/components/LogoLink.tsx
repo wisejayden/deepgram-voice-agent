@@ -1,3 +1,5 @@
+"use client";
+
 import type { FC } from "react";
 import Image from "next/image";
 import { withBasePath } from "../utils/deepgramUtils";

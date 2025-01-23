@@ -1,3 +1,5 @@
+"use client";
+
 import { type FC, useState, useEffect, useRef } from "react";
 import PopupBody from "app/components/PopupBody";
 import InstructionInput from "app/components/InstructionInput";

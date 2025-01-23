@@ -1,3 +1,5 @@
+"use client";
+
 import { type FC, type MutableRefObject, useRef, useEffect } from "react";
 import { useVoiceBot, VoiceBotStatus } from "../context/VoiceBotContextProvider";
 

@@ -1,3 +1,5 @@
+"use client";
+
 import type { FC, ComponentPropsWithoutRef, KeyboardEventHandler } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
 

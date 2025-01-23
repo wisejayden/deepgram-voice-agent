@@ -1,3 +1,5 @@
+"use client";
+
 const PromptSuggestion = ({ icon, purpose, question }) => (
   <div className="flex-shrink-0 flex gap-2 p-4 pr-8 bg-[#88888C33;] rounded-lg">
     {icon}

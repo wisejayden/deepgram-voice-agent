@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, type ReactNode } from "react";
 import PopupBody from "app/components/PopupBody";
 import { XMarkIcon } from "app/components/icons/XMarkIcon.js";

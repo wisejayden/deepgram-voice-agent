@@ -1,3 +1,5 @@
+"use client";
+
 import { type FC, Suspense } from "react";
 import LogoLink from "app/components/LogoLink";
 import VoiceSelector from "app/components/VoiceSelector/VoiceSelector";

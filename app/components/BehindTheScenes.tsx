@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef, useLayoutEffect } from "react";
 import { XMarkIcon } from "./icons/XMarkIcon";
 import { DownArrowIcon } from "./icons/DownArrowIcon.js";

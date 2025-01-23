@@ -1,3 +1,5 @@
+"use client";
+
 import { type FC, useEffect, useState, useRef } from "react";
 import { PencilIcon } from "app/components/icons/PencilIcon.js";
 import { useStsQueryParams } from "app/hooks/UseStsQueryParams";
