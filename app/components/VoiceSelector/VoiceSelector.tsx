@@ -1,3 +1,5 @@
+"use client";
+
 import { availableVoices } from "app/lib/constants";
 import type { Voice } from "../../utils/deepgramUtils";
 import Image from "next/image";

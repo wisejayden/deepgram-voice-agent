@@ -3,10 +3,11 @@
 import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { withBasePath } from "../utils/deepgramUtils";
+import ClientOnly from "../utils/ClientOnly";
 
 const AnimatedBackground = ({ children }) => {
   return (
-    <div>
+    <ClientOnly>
       <Player
         autoplay
         loop
@@ -23,7 +24,7 @@ const AnimatedBackground = ({ children }) => {
       >
         {children}
       </div>
-    </div>
+    </ClientOnly>
   );
 };
 

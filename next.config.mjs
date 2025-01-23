@@ -3,6 +3,16 @@ const nextConfig = {
   basePath: "/agent",
   redirects: () => [{ source: "/", destination: "/agent", permanent: false, basePath: false }],
 
+  // Add SSR configuration
+  reactStrictMode: true,
+  transpilePackages: ["@lottiefiles/react-lottie-player"],
+
+  // Add webpack configuration
+  webpack: (config) => {
+    config.resolve.fallback = { fs: false };
+    return config;
+  },
+
   images: {
     remotePatterns: [
       {
